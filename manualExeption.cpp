@@ -11,4 +11,8 @@ int main(){
         //blok ini akan dieksekusi
         cout << "Pengeculaian akan dieksekusi " << endl;
     }
+    catch (int a) {
+        //blok ini akan di eksekusi 
+        cout << "Pengecualian akan dikesekusi" << endl;
+    }
 }
